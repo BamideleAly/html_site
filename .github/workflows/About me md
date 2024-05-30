@@ -1,1 +1,18 @@
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Add personal information
+        run: |
+          echo "## About Me" >> _site/about.md
+          echo "Name: Your Name" >> _site/about.md
+          echo "Location: Your Location" >> _site/about.md
+          # Add more personal information as needed
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
+I am Bamidele, currently located in London. I have a background in business studies and foreign languages and work in the banking industry. Some of my recent projects include monetary history of Ghana and Nigeria, Innovation, and Geographic Data Sciences. My professional goals include Innovation and AI, and I have a keen interest in creative arts and travelling.
