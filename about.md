@@ -1,0 +1,1 @@
+I am Bamidele, currently located in London. I have a background in business studies and foreign languages and work in the banking industry. Some of my recent projects include monetary history of Ghana and Nigeria, Innovation, and Geographic Data Sciences. My professional goals include Innovation and AI, and I have a keen interest in creative arts and travelling.
